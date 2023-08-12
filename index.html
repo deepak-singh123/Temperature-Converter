@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="container">
+
+        <div class="box">
+            <div class="title"><h2>Temperature Converter</h2></div>
+
+            <div class="inp ">
+
+                <input type="number" placeholder="Enter Temperature" id="inp-temp">
+                <select name="temp" id="temp">
+                    <option value="C">&degC</option>
+                    <option value="F">&degF</option>
+                </select>
+            </div>
+            <div class="out hidden">
+                <p class="ouput"></p>
+                <span class="out_deg"></span>
+            </div>
+
+            <div class="butn" >
+                <button onclick="show()" class="btn"> Convert </button>
+            </div>
+
+            
+
+
+        </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
